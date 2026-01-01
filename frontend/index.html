@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ijju_eatery</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Dialogflow Messenger Script -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+</head>
+<body>
+
+<!-- HERO BANNER -->
+<!-- BANNER HEADER -->
+<header class="banner-header">
+  <img src="banner.png" alt="ijju_eatery banner">
+</header>
+
+
+
+<section class="menu">
+  <h2>Our Menu</h2>
+
+  <div class="grid">
+    <div class="card">
+      <img src="pav_bhaji.png">
+      <h3>Pav Bhaji</h3>
+      <p>₹120</p>
+    </div>
+
+    <div class="card">
+      <img src="chole_bhature.png">
+      <h3>Chole Bhature</h3>
+      <p>₹150</p>
+    </div>
+
+    <div class="card">
+      <img src="pizza.jpg">
+      <h3>Pizza</h3>
+      <p>₹250</p>
+    </div>
+
+    <div class="card">
+      <img src="mango_lassi.jpg">
+      <h3>Mango Lassi</h3>
+      <p>₹80</p>
+    </div>
+
+    <div class="card">
+      <img src="veg-biryani.jpg">
+      <h3>Veg Biryani</h3>
+      <p>₹220</p>
+    </div>
+
+    <div class="card">
+      <img src="Samosa.jpg">
+      <h3>Samosa</h3>
+      <p>₹30</p>
+    </div>
+
+    <div class="card">
+      <img src="dosa.jpg">
+      <h3>Dosa</h3>
+      <p>₹100</p>
+    </div>
+
+    <div class="card">
+      <img src="rava_dosa.jpg">
+      <h3>Rava Dosa</h3>
+      <p>₹110</p>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Dialogflow Chatbot -->
+<df-messenger
+  intent="WELCOME"
+  chat-title="Ijju Chatbot"
+  agent-id="350e57e4-57ae-41d6-9153-5b4cc2c14d8e"
+  language-code="en">
+</df-messenger>
+
+</body>
+</html>
