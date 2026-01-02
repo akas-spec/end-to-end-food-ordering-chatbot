@@ -21,4 +21,4 @@ An AI-powered food ordering chatbot built using FastAPI, Dialogflow, and Postgre
 1. Activate virtual environment
 2. Start backend:
    ```bash
-   uvicorn main:app --reload
+   uvicorn backend.main:app --reload
