@@ -2,77 +2,106 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ijju_eatery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ijju Eatery</title>
   <link rel="stylesheet" href="style.css">
 
-  <!-- Dialogflow Messenger Script -->
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 </head>
 <body>
 
-<!-- HERO BANNER -->
-<!-- BANNER HEADER -->
-<header class="banner-header">
-  <img src="banner.png" alt="ijju_eatery banner">
+<nav class="navbar">
+  <a href="#" class="brand-name">Ijju Eatery</a>
+</nav>
+
+<header class="hero-section">
+  <img src="banner.png" alt="Ijju Eatery Delicious Food">
 </header>
-
-
+  
+<div class="hero-text">
+    <h1>Welcome to Ijju's Eatery</h1>
+    <p>Authentic Tastes & Delicious Bites</p>
+</div>
 
 <section class="menu">
   <h2>Our Menu</h2>
 
   <div class="grid">
     <div class="card">
-      <img src="pav_bhaji.png">
-      <h3>Pav Bhaji</h3>
-      <p>₹120</p>
+      <img src="pav_bhaji.png" alt="Pav Bhaji">
+      <div class="card-content">
+        <h3>Pav Bhaji</h3>
+        <p class="price">₹120</p>
+        <button class="btn-order">Order Now</button>
+      </div>
     </div>
 
     <div class="card">
-      <img src="chole_bhature.png">
-      <h3>Chole Bhature</h3>
-      <p>₹150</p>
+      <img src="chole_bhature.png" alt="Chole Bhature">
+      <div class="card-content">
+        <h3>Chole Bhature</h3>
+        <p class="price">₹150</p>
+        <button class="btn-order">Order Now</button>
+      </div>
     </div>
 
     <div class="card">
-      <img src="pizza.jpg">
-      <h3>Pizza</h3>
-      <p>₹250</p>
+      <img src="pizza.jpg" alt="Pizza">
+      <div class="card-content">
+        <h3>Pizza</h3>
+        <p class="price">₹250</p>
+        <button class="btn-order">Order Now</button>
+      </div>
     </div>
 
     <div class="card">
-      <img src="mango_lassi.jpg">
-      <h3>Mango Lassi</h3>
-      <p>₹80</p>
+      <img src="mango_lassi.jpg" alt="Mango Lassi">
+      <div class="card-content">
+        <h3>Mango Lassi</h3>
+        <p class="price">₹80</p>
+        <button class="btn-order">Order Now</button>
+      </div>
     </div>
 
     <div class="card">
-      <img src="veg-biryani.jpg">
-      <h3>Veg Biryani</h3>
-      <p>₹220</p>
+      <img src="veg-biryani.jpg" alt="Veg Biryani">
+      <div class="card-content">
+        <h3>Veg Biryani</h3>
+        <p class="price">₹220</p>
+        <button class="btn-order">Order Now</button>
+      </div>
     </div>
 
     <div class="card">
-      <img src="Samosa.jpg">
-      <h3>Samosa</h3>
-      <p>₹30</p>
+      <img src="Samosa.jpg" alt="Samosa">
+      <div class="card-content">
+        <h3>Samosa</h3>
+        <p class="price">₹30</p>
+        <button class="btn-order">Order Now</button>
+      </div>
     </div>
 
     <div class="card">
-      <img src="dosa.jpg">
-      <h3>Dosa</h3>
-      <p>₹100</p>
+      <img src="dosa.jpg" alt="Dosa">
+      <div class="card-content">
+        <h3>Dosa</h3>
+        <p class="price">₹100</p>
+        <button class="btn-order">Order Now</button>
+      </div>
     </div>
 
     <div class="card">
-      <img src="rava_dosa.jpg">
-      <h3>Rava Dosa</h3>
-      <p>₹110</p>
+      <img src="rava_dosa.jpg" alt="Rava Dosa">
+      <div class="card-content">
+        <h3>Rava Dosa</h3>
+        <p class="price">₹110</p>
+        <button class="btn-order">Order Now</button>
+      </div>
     </div>
+
   </div>
 </section>
 
-<!-- ✅ Dialogflow Chatbot -->
 <df-messenger
   intent="WELCOME"
   chat-title="Ijju Chatbot"
